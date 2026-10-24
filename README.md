@@ -77,6 +77,7 @@ tft.text("Hello RP2350 DVI!", 30, 40, color_white)
 
 # Отображение на экране
 tft.show()
+```
 
 <a name="english"></a>
 ## 🇬🇧 English
