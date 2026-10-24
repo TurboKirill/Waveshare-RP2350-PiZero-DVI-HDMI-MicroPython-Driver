@@ -46,13 +46,13 @@
 1. **Прошивка микроконтроллера:**
    * Зажмите кнопку **BOOT** на плате и подключите её к ПК через порт **USB** (Type-C).
    * Плата определится как накопитель `RP2350`.
-   * Скопируйте файл `firmware/firmware.uf2` из репозитория на накопитель. Плата перезагрузится.
+   * Скопируйте файл [firmware/firmware.uf2](firmware/firmware.uf2) из репозитория на накопитель. Плата перезагрузится.
 
 2. **Загрузка драйвера:**
-   * С помощью Thonny IDE или другого ПО загрузите файл `driver/dvi_display.py` в корень файловой системы платы (или в папку `/lib`).
+   * С помощью Thonny IDE или другого ПО загрузите файл [driver/dvi_display.py](driver/dvi_display.py) в корень файловой системы платы (или в папку `/lib`).
 
 3. **Запуск теста:**
-   * Откройте и запустите `examples/dvi_test.py` на плате, подключив монитор к разъёму DVI/HDMI.
+   * Откройте и запустите [examples/dvi_test.py](examples/dvi_test.py) на плате, подключив монитор к разъёму DVI/HDMI.
 
 ---
 
@@ -112,11 +112,11 @@ This project is licensed under **Creative Commons Attribution-NonCommercial-Shar
 
 1. **Flash Firmware:**
    * Hold the **BOOT** button and plug the board into your PC via USB-C.
-   * Copy the `firmware.uf2` firmware to the mounted `RP2350` drive.
+   * Copy the [firmware/firmware.uf2](firmware/firmware.uf2) firmware to the mounted `RP2350` drive.
 2. **Install Python Wrapper:**
-   * Upload `dvi_display.py` to the device filesystem (root or `/driver`) using Thonny IDE.
+   * Upload [driver/dvi_display.py](driver/dvi_display.py) to the device filesystem (root or `/lib`) using Thonny IDE.
 3. **Run Demo:**
-   * Connect an HDMI display and execute `dvi_test.py` from examples.
+   * Connect an HDMI display and execute [examples/dvi_test.py](examples/dvi_test.py) from examples.
 
 ---
 
